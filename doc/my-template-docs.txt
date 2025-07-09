@@ -1,4 +1,4 @@
-*my-template-docs.txt*     For Neovim >= 0.8.0    Last change: 2024 January 18
+*my-template-docs.txt*      For Neovim >= 0.8.0      Last change: 2025 July 09
 
 ==============================================================================
 Table of Contents                         *my-template-docs-table-of-contents*
@@ -6,6 +6,7 @@ Table of Contents                         *my-template-docs-table-of-contents*
 1. A Neovim Plugin Template        |my-template-docs-a-neovim-plugin-template|
   - Using it              |my-template-docs-a-neovim-plugin-template-using-it|
   - Features and structure|my-template-docs-a-neovim-plugin-template-features-and-structure|
+2. Links                                              |my-template-docs-links|
 
 ==============================================================================
 1. A Neovim Plugin Template        *my-template-docs-a-neovim-plugin-template*
