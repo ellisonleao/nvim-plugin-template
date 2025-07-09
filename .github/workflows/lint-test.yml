@@ -7,8 +7,8 @@ jobs:
     name: stylua
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: JohnnyMorganz/stylua-action@v3
+      - uses: actions/checkout@v4
+      - uses: JohnnyMorganz/stylua-action@v4
         with:
           version: latest
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -22,7 +22,7 @@ jobs:
     name: test
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - uses: rhysd/action-setup-vim@v1
         with:
